@@ -1,0 +1,21 @@
+top ten words in TRUE
+[('virus', 20), ('new', 17), ('poisoning', 15), ('may', 12), ('coronavirus', 12), ('toxic', 11), ('cause', 11), ('infection', 9), ('poisonous', 7), ('pneumonia', 6)]
+top ten words in FALSE
+[('new', 150), ('coronavirus', 92), ('virus', 89), ('pneumonia', 75), ('poisonous', 56), ('prevent', 53), ('wuhan', 44), ('water', 40), ('crown', 38), ('toxic', 34)]
+top ten words in suspect
+[('new', 58), ('coronavirus', 31), ('pneumonia', 28), ('virus', 26), ('poisonous', 18), ('toxic', 17), ('crown', 16), ('prevent', 12), ('poisoning', 12), ('water', 11)]
+
+80% train, 20%test
+one-hot classifier train result with Logistic Regression coefficient C=0.1
+accuracy: 0.673171
+f1 score: 0.541677
+
+one-hot classifier train result with Logistic Regression coefficient C=1
+accuracy: 0.668293
+f1 score: 0.539324
+
+one-hot classifier train result with Logistic Regression coefficient C=100
+accuracy: 0.668293
+f1 score: 0.539324
+
+
