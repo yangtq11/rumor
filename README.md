@@ -12,6 +12,6 @@
   IV.one_hot_class which use binary classifier to train the data
   V. lstm which train a neural network
 
-5.rumor_chinese.csv and rumor_chinese_keword.csv are the orignal data I collected using UTF-8 coding
+5. rumor_chinese.csv and rumor_chinese_keword.csv are the orignal data I collected using UTF-8 coding
 
 6. other files includes some data trained by lstm work.
